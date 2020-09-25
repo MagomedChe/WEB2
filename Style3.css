@@ -1,0 +1,143 @@
+header {
+	background-image: url(final-2/images/top.png);
+	max-height: 850px;
+	background-size: cover;
+	padding: 45px 0 110px 0;
+}
+section {
+	padding: 25px 0;
+}
+.logo {
+	height: 40px;
+	line-height: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+.logo::after {
+	content: ".";
+	color: red;
+	padding-left: 0;
+}
+nav {
+	height: 40px;
+	line-height: 40px;
+}
+.nav li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0 15px;
+}
+.burger-icon {
+	font-size: 25px;
+}
+.search-icon {
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #ff9b0c;
+	font-size: 25px;
+	color: white; 
+}
+.titleheader {
+	font-size: 40px;
+	font-weight: 900;
+	margin: 150px 0 45px 0;
+}
+.button {
+	margin: 60px 0 0 0;
+}
+.learn-button {
+	font-family:'Roboto', sans-serif;
+	font-weight: 900;
+	padding: 20px 40px;
+	background-color: #f33f4c;
+	border-radius: 30px;
+}
+.play-button {
+	width: 64px;
+    padding: 20px;
+    background-color: #ff9b0c;
+    border-radius: 50%;
+    height: 64px;
+    text-align: center;
+}
+.text-watch {
+	height: 64px;
+	line-height: 64px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.features {
+	padding: 40px 40px 0 40px;
+	background-color: white;
+	position: relative;
+	top: -110px;
+	box-shadow: 0 0 20px -11px black;
+	
+}
+.features-title {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bolder;
+	margin: 25px 0;
+	font-size: 25px;
+}
+.features-arrow {
+    text-align: center;
+    background-color: white;
+    width: 45px;
+    position: relative;
+    top: 21px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px -9px black;
+}
+.section-2 {
+	background-image: url(final-2/images/about.png);
+	background-size: cover;
+}
+.titlebolder {
+	font-weight: bolder;
+	margin: 40px 0;
+	font-size: 38px;
+}
+.btn-how {
+	background-color: #dfebff;
+	color: #4f87e5; 
+	padding: 0 15px;
+	border-radius: 15px;
+	font-weight: bolder;
+}
+.check-icon-text {
+	padding-bottom: 10px;
+}
+.check-icon {
+	color: #ff9b0c;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0 0 2px 0px #838384;
+}
+.chek-text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.about {
+	padding: 40px 25px;
+}
+.about-600 {
+	font-size: 40px;
+	color: #1b62db;
+}
+.about-150 {
+	font-size: 40px;
+	color: #f33f4c;
+}
+.about-80 {
+	font-size: 40px;
+	color: #ff9b0c;
+}
+.text-about {
+	text-align: center;
+}
